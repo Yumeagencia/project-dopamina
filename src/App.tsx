@@ -49,10 +49,15 @@ function App() {
         <Route path="/guia-estres/burnout" element={<Burnout />} />
 
         <Route path="/guia-procrastinacion/perfeccionismo" element={<Perfeccionismo />} />
+        <Route path="/guia-procrastinacion/procrastperfeccionismo" element={<Perfeccionismo />} />
         <Route path="/guia-procrastinacion/miedoalfracaso" element={<MiedoAlFracaso />} />
+        <Route path="/guia-procrastinacion/procrastmiedoalfracaso" element={<MiedoAlFracaso />} />
         <Route path="/guia-procrastinacion/faltadeclaridad" element={<FaltaDeClaridad />} />
+        <Route path="/guia-procrastinacion/procrastclaridad" element={<FaltaDeClaridad />} />
         <Route path="/guia-procrastinacion/agotamiento" element={<Agotamiento />} />
+        <Route path="/guia-procrastinacion/procrastagotamiento" element={<Agotamiento />} />
         <Route path="/guia-procrastinacion/faltadeproposito" element={<FaltaDeProposito />} />
+        <Route path="/guia-procrastinacion/procrastproposito" element={<FaltaDeProposito />} />
       </Routes>
     </Router>
   );
